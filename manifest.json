@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook friend list. ",
+  "description": "Aha",
+  "version": "1.0",
+  "permissions": [
+    "https://www.facebook.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "jquery.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "facebook.png",
+    "default_popup": "popup.html"
+  }
+}

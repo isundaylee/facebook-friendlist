@@ -1,0 +1,16 @@
+body {
+  min-width: 357px;
+  overflow-x: hidden;
+  padding: 10px 10px;
+  padding-top: 0;
+}
+
+h1 {
+  font-size: 15px;
+  color: #3B5998;
+}
+
+#string {
+  width: 400px;
+  height: 300px;
+}
